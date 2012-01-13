@@ -1,0 +1,91 @@
+body {
+	background: url(../img/body-bkg.png) repeat scroll;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	margin: 0pt auto;
+	width:950px;
+}
+
+#header{
+	background: url(../img/hdr-bkg.png) repeat-x scroll;
+	height:181px;
+	position:absolute;
+	z-index :100;
+	top: 0px;
+	left:0px;
+	width:100%;
+}
+
+#navigation{
+	height:60px;
+}
+
+#home, #home div, 
+#about, #about div, 
+#services , #services div, 
+#solutions, #solutions div, 
+#contact,  #contact div {
+	height:80px;
+	position:absolute;
+	width:97px;
+	float:left;
+}
+
+#home, #about, #services, #solutions, #contact{
+	background-image: url(../img/nav.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	top:171px;
+}
+
+#home{
+	background-position: 0px -25px;
+	margin-left:6px;
+}
+
+#about{
+	background-position: -98px -25px;
+	margin-left:105px;
+}
+
+#services{
+	background-position: -196px -25px;
+	margin-left:204px;
+}
+
+#solutions{
+	background-position: -294px -25px;
+	margin-left:303px;
+}
+
+#contact{
+	background-position: -392px -25px;
+	margin-left:402px;
+}
+
+#home div, #about div, #services div, #solutions div, #contact div {
+	background-image: url(../img/white.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 0px -60px;	
+}	
+
+.pri-nav a{
+	display:block;
+	text-decoration:none;
+	text-indent:-30000px;
+}
+
+.content{
+	margin-top:160px;
+}
+
+#content-title{
+	background: url(../img/content-title.png) no-repeat scroll;
+	height:323px;
+	position:absolute;
+	width:100%;
+}
