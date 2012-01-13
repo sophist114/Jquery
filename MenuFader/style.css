@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: Helvetica, sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+#page-wrap {
+	width: 760px;
+	background: white;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.button {
+	float: left;
+	margin: 10px;
+}
+
+#home {
+	display: block;
+	padding: 30px;
+}
+#home-button {
+	opacity: 1.0;
+	border-bottom: 1px solid black;
+}
+
+#about {
+	display: none;
+	padding: 30px;
+}
+#about-button {
+	opacity: 0.5;
+	border-bottom: 1px solid black;
+}
+
+#contact {
+	display: none;
+	padding: 30px;
+}
+#contact-button {
+	opacity: 0.5;
+	border-bottom: 1px solid black;
+
+}
